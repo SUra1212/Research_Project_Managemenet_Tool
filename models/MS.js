@@ -1,0 +1,84 @@
+const mongoose = require('mongoose');
+
+const MSSchema = new mongoose.Schema({
+
+    MSname:{
+        type:String,
+        required:true
+    },
+    SRL:{
+        type:String,
+        required:true
+    },
+    SRLMM:{
+        type:String,
+        required:true
+    },
+    SRLW:{
+        type:String,
+        required:true
+    },
+    SRF:{
+        type:String,
+        required:true
+    },
+    SRFMM:{
+        type:String,
+        required:true
+    },
+    SRFW:{
+        type:String,
+        required:true
+    },
+    A1R:{
+        type:String,
+        required:true
+    },
+    A1RMM:{
+        type:String,
+        required:true
+    },
+    A1RW:{
+        type:String,
+        required:true
+    },
+    A2R:{
+        type:String,
+        required:true
+    },
+    A2RMM:{
+        type:String,
+        required:true
+    },
+    A2RW:{
+        type:String,
+        required:true
+    },
+    OPA1:{
+        type:String,
+        required:true
+    },
+    OPA1MM:{
+        type:String,
+        required:true
+    },
+    OPA1W:{
+        type:String,
+        required:true
+    },
+    OPA2:{
+        type:String,
+        required:true
+    },
+    OPA2MM:{
+        type:String,
+        required:true
+    },
+    OPA2W:{
+        type:String,
+        required:true
+    }
+    
+});
+
+module.exports = mongoose.model('MS', MSSchema);

@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://RPMT:RPMT123@rpmt.adwmvp9.mongodb.net/?retryWrites=true&w=majority",
+    "secretOrKey": "secret"
+}
